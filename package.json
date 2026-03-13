@@ -1,0 +1,32 @@
+{
+  "name": "@devs-studio/event-bridge",
+  "version": "1.0.0",
+  "description": "Classes for event brige",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npx tsc",
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "event-bridge",
+    "aws"
+  ],
+  "homepage": "https://github.com/devsstudio/event-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/devsstudio/event-bridge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsstudio/event-bridge.git"
+  },
+  "license": "ISC",
+  "author": "Devs Studio",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-eventbridge": "^3.1007.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
